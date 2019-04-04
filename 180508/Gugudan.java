@@ -1,0 +1,18 @@
+import java.util.*;
+
+class Gugudan {
+	public static void main(String[] args){
+		System.out.print("하고싶은 단(숫자로) : " );
+		Scanner g = new Scanner(System.in);
+		int g1 = g.nextInt();
+
+		System.out.println(g1 + "단");
+		
+		for (int g2=1;g2<=9 ;g2++)
+		{
+			System.out.println(g1 + "*" + g2 + "=" + (g1*g2));
+		}
+
+		
+	}
+}

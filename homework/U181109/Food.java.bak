@@ -1,0 +1,4 @@
+class Food {
+	int price;
+	double kcal,weight;
+}

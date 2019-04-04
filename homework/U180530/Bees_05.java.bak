@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Bees_05 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Bees를 입력하세요 : ");
+		String bee=sc.next();
+		
+		int i=1;
+		String Bees="Bees"
+		;
+
+		if (bee.equals(Bees))
+		{
+			while (i<=5)
+			{
+				System.out.println("Bees");
+				i++;
+			}
+		}
+		else {
+			System.out.println("Bees가 아닙니다. 다시 입력해 주세요. ");
+		}
+	}
+}

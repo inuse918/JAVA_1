@@ -1,0 +1,5 @@
+class Student8 extends Person8{
+	public void eat(String food) {
+		System.out.println(food+"를 열심히 먹다.");
+	}
+}

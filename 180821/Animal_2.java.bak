@@ -1,0 +1,11 @@
+class Animal_2 {
+	String name;
+	String color;
+
+	public void run() {
+		System.out.println("´Þ¸®´Ù");
+	}
+	public void eat() {
+		System.out.println("¸Ô´Ù"};
+	}
+}

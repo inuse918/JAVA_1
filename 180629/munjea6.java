@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class munjea6 {
+	public static void main(String[] args) {
+		//6. 10 이하의 자연수 n을 입력받아 "Daniel"을 n번 출력하는 프로그램을 작성하시오.
+		Scanner sc=new Scanner(System.in);
+		int n[]=new int[1];
+		System.out.print("10 이하의 자연수를 입력하세요 : ");
+		n[0]=sc.nextInt();
+		if (n[0]>10)
+		{
+			System.out.println("10 이하의 자연수만 입력하세요.");
+			return;
+		}
+		for (int i=1;i<=n[0];i++){
+			System.out.println("Daniel");
+		}
+	}
+}

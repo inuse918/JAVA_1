@@ -1,0 +1,10 @@
+arraylist의 메소드
+add()	방에 데이터 삽입
+addAll()	
+get()	방의 데이터 로드
+remove()	데이터 제거
+indexOf()	인덱스 위치 로드
+clear()	모든 데이터 지우기
+size()	배열의 크기
+
+Arraylist <String> list=new Arraylist <String>();

@@ -1,0 +1,13 @@
+class person_Test {
+	public static void main(String[] args) {
+		
+	person p1=new person();
+	p1.name="Mike";
+	p1.age=30;
+
+	System.out.println("이름 : "+p1.name+" 나이 : "+p1.age);
+	p1.eat();
+	p1.go();
+
+	}
+}

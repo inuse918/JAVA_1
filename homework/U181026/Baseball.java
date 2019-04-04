@@ -1,0 +1,8 @@
+class Baseball extends Sports {
+	
+	public void rule(){
+		System.out.println("3 번 아웃이면 공, 수 교대");
+		System.out.println("파울이 네 개면 퇴장");
+		System.out.println("홈에 들어오면 득점");
+	}
+}

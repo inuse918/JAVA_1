@@ -1,0 +1,7 @@
+class Shape{
+	int x,int y;
+
+	public void setArea(int x,int y){
+		
+	}
+}

@@ -1,0 +1,4 @@
+class Student9 {
+	String name, num, tel, add, gwa;
+
+}

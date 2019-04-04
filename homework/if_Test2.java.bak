@@ -1,0 +1,11 @@
+class if_Test2 {
+	public static void main(String[] args) {
+		int a=-6;
+		if(a>=0) {
+			System.out.println("양수");
+		} 
+		else if {
+			System.out.println("음수");
+		}
+	}
+}

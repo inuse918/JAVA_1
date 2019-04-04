@@ -1,0 +1,9 @@
+class Phone {
+	String manufacturer,type;
+	int price;
+int price,String type){
+		this.manufacturer=manufacturer;
+		this.price=price;
+		this.type=type;
+	}
+}

@@ -1,0 +1,40 @@
+/*
+  ________			_________
+	(ㅜㅜ)				   (ㅜㅜ)
+	N								 N
+
+	O				.,				  O              흑흑
+
+   o   ㅡㅡㅡㅡㅡㅡㅡㅡ o
+
+
+　　객체배열 모르겠어요..
+*/
+class Song {
+	 String title, artist, album, composer, year;
+	 int track;
+	
+	public Song(String title, String artist, String album, String composer, String year,int track){
+		this.title=title;
+		this.artist=artist;
+		this.album=album;
+		this.composer=composer;
+		this.year=year;
+		this.track=track;
+	}
+	public Song(){
+	}
+	public void show(String title, String artist, String album, String composer, String year,int track){
+		System.out.println("제목 :"+title);
+		System.out.println("가수 : "+artist);
+		System.out.println("앨범명 : "+album);
+		System.out.println("작곡가 : "+composer);
+		System.out.println("년도 : "+year);
+		System.out.println("트랙번호 : "+track);
+	}
+	public static void main(String[] args) {
+		Song s=new Song();
+		s.show("Dancing Queen","ABBA","Dancing Queen","유채린","2002",1);
+		
+	}
+}
